@@ -1,0 +1,44 @@
+{
+  "name": "cli-pfql",
+  "version": "1.0.0",
+  "description": "command line interface for pfql using MiST3 API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cli-pfql": "./bin/cli-pfql.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviortega/cli-pfql.git"
+  },
+  "keywords": [
+    "bioinformatics",
+    "pfql",
+    "mist3",
+    "filter"
+  ],
+  "author": "Davi Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviortega/cli-pfql/issues"
+  },
+  "homepage": "https://github.com/daviortega/cli-pfql#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "mocha": "^5.0.0",
+    "nyc": "^11.4.1"
+  },
+  "dependencies": {
+    "argparser": "^0.2.2",
+    "bunyan": "^1.8.12",
+    "core-bio": "0.0.7",
+    "mist3-to-pfql": "^0.1.1",
+    "node-mist3": "github:biowonks/node-mist3#dev",
+    "pfql": "^1.2.0",
+    "shelljs": "^0.8.1",
+    "through2": "^2.0.3"
+  }
+}

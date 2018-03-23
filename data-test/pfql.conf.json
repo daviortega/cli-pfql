@@ -1,0 +1,14 @@
+[
+    {
+        "rules": [
+            {
+                "Npos": [
+                    {
+                    "resource": "pfam30",
+                    "feature": "FlgDH"
+                    }
+                ]
+            }
+        ]
+    }
+]
